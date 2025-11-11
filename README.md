@@ -3,7 +3,7 @@
 A Go-based semantic search service built with the Gin web framework.
 
 ## Project Structure
-
+ 
 ```
 semantic-search/
 ├── internal/

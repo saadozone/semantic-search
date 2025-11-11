@@ -2,7 +2,11 @@ module github.com/saad/semantic-search
 
 go 1.25.1
 
-require github.com/gin-gonic/gin v1.11.0
+require (
+	github.com/DataIntelligenceCrew/go-faiss v0.2.0
+	github.com/gin-gonic/gin v1.11.0
+	github.com/mattn/go-sqlite3 v1.14.32
+)
 
 require (
 	github.com/bytedance/sonic v1.14.0 // indirect
